@@ -20,7 +20,7 @@ const Projects: FC<ProjectsProps> = (props: ProjectsProps) => {
   };
 
   const projects = ProjectsList.map((project, idx) => (
-    <Grid item xs={4} key={idx}>
+    <Grid item xs={12} sm={6} md={6} lg={4} xl={4} key={idx}>
       <Card sx={{ minWidth: 275 }}>
         <CardContent>
           <Typography variant="h5" component="div">
